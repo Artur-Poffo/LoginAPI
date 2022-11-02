@@ -1,5 +1,5 @@
 {
-  "name": "Login",
+  "name": "login",
   "version": "1.0.0",
   "description": "Aplicação de Login",
   "main": "server.js",
