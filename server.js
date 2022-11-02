@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGO_URI || "mongodb://localhost/test", {
   .catch((err) => console.log("MongoDB error on connect: " + err))
 
 app.use(cors())
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.urlencoded({extended: true}));
 app.use("/api", router)
 
 if (process.env.NODE_ENV === "production") {
