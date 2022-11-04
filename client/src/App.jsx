@@ -8,6 +8,7 @@ import LoginPage from "./pages/LoginPage"
 import SignUpPage from "./pages/SignUpPage"
 import LoginSucces from './pages/LoginSucces'
 import LoginError from './pages/LoginError'
+import NewUserSuccess from "./pages/NewUserSuccess"
 import NewUserError from "./pages/NewUserError"
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='/LoginSuccess' element={<LoginSucces />} />
           <Route path='/LoginError' element={<LoginError />} />
           <Route path='/NewUser' element={<SignUpPage />} />
+          <Route path='/NewUserSuccess' element={<NewUserSuccess />} />
           <Route path='/NewUserError' element={<NewUserError />} />
         </Routes>
       </Router>

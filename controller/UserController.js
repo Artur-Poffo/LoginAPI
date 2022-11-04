@@ -32,7 +32,7 @@ const NewUser = async (req, res) => {
 
     NewUser.save()
       .then((doc) => {
-        res.status(200).send(doc)
+        res.status(200).redirect("/NewUserSuccess")
       })
       .catch((err) => {
         res.status(500).send(err)
