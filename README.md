@@ -1,12 +1,12 @@
-# Aplicação de Login:
+# Login Application:
 
-> Status: 1.0.0
+> Status: Version 1.0.0
 
-## Tecnologias:
+## Technologies:
 
 - React.js (Front-End)
 - Styled-Components
 - Node.js (Back-End)
 - Express.js
-- MongoDB (Banco de Dados não Relacional)
-- mongoose (módulo para trabalhar com MongoDB)
+- MongoDB (Non-Relational Database)
+- mongoose (module to work with MongoDB)
